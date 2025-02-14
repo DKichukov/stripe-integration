@@ -1,0 +1,7 @@
+server:
+  port: 9095
+  context_path: /api/v1/integration
+api:
+  stripe:
+    key: ${STRIPE_KEY}
+
